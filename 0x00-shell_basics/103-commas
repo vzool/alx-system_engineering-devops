@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | awk '{print $1"/,"}'
+ls -a | awk '{print $1"/,"}' | tr '\n' ' '
