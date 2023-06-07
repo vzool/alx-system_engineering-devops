@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | awk '{print $1","}' | tr '\n' ' ' | sed 's/, $/ /' | tr '\n' ' '
+echo "$(ls -ap | awk '{print $1","}' | tr '\n' ' ' | sed 's/, $/\n/')"
