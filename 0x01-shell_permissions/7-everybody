@@ -1,2 +1,2 @@
 #!/bin/bash
-umask 111 # chmod 751 hello # 444
+chmod 751 hello # 444
