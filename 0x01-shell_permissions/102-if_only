@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty:staff hello # guillaume
+chown betty:staff $(find . -user guillaume)
