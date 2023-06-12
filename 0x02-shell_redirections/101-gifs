@@ -1,2 +1,2 @@
 #!/bin/bash
-for gif in $(find . -type f -name "*.gif"); do gif=${gif##*/}; noExt=${gif%.*}; echo -e "\t$noExt" ; done | LC_ALL=C sort -if
+for gif in $(find . -type f -name "*.gif"); do gif=${gif##*/}; noExt=${gif%.*}; echo -e "$noExt" ; done | LC_ALL=C sort -if
