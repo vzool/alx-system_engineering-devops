@@ -1,2 +1,2 @@
 #!/bin/bash
-for gif in $(find . -type f -name "*.gif" | tr -d '.gif'); do echo ${gif##*/} ; done
+for gif in $(find . -type f -name "*.gif" | sort -r ); do gif=${gif##*/}; noExt=${gif%.*}; echo "$noExt" ; done
