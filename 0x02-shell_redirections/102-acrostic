@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cat An\ Acrostic | cut -b 1 | tr -d '\n')"
+cut -b 1 | tr -d '\n'
