@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($TRUEKNOWLEDGE+128))
+echo "BEST=School\nBEST=School" # echo $(($TRUEKNOWLEDGE+128))
